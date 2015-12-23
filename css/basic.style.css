@@ -1,0 +1,77 @@
+/*!
+ * Style de base 
+ * (c) Axel Wargnier pour WF3
+ */
+
+/* import de normalize.css */
+@import url('normalize.css');
+/* import d'une font Google */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	background: #fff;
+}
+
+
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	font-size: 1.8rem;
+}
+h3 {
+	font-size: 1.6rem;
+}
+h4 {
+	font-size: 1.4rem;
+}
+h5 {
+	font-size: 1.3rem;
+}
+h6 { 
+	font-size: 1.1rem; 
+}
+
+form {
+	border: 1px solid #ddd;
+	padding: 15px;
+}
+label {
+	font-weight: bold;
+	margin: 5px 0 5px 10px;
+	min-width: 80px;
+	display: inline-block;
+}
+input[type=submit], input[type=button] {
+	padding: 6px 14px;
+	background: #3A87AD;
+	color: #FFF;
+	border: 1px solid #217da8;
+	border-radius: 2px;
+	margin: 5px 0 5px 10px;
+}
+input[type=submit]:active, input[type=button]:active {
+	background: #1e698c;
+}
+input[type="text"], input[type="email"], select {
+	display: inline-block;
+	padding: 4px 6px;
+	margin: 5px 0 5px 10px;
+}
+
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.text-left {
+	text-align: left;
+}
